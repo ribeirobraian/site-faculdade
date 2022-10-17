@@ -6,9 +6,9 @@ Feito com **html**, **css** e **python**.
 
 Contendo paginas principais de um site padrão sendo elas:
 
--Home
--Forma de insgresso
--Coneça nossos cursos
--Dessconto e Bolsas
--Fale com Nosco
+* Home
+* Forma de insgresso
+* Coneça nossos cursos
+* Dessconto e Bolsas
+* Fale com Nosco
  
