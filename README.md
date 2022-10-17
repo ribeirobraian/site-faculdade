@@ -10,5 +10,5 @@ Contendo paginas principais de um site padrão sendo elas:
 * Forma de insgresso
 * Coneça nossos cursos
 * Dessconto e Bolsas
-* Fale com Nosco
+* Fale Conosco
  
