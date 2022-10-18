@@ -1,41 +1,71 @@
-<!TYPE ="html">
-  <title>Formas de Ingresso</title>
-  <body background="imgs-pjt-unes/fundo.png">
-    <table border="1" width="80%">
-      <tr>
-        <td width="40%">
-          <img src="imgs-pjt/logo.png">
-        </td>
-        <td>
-          <a href="index.html">HOME |</a>
-          <a href="">FORMAS DE INGRESSO |</a>
-          <a href="nossoscursos.html">CONHEÇA NOSSOS CURSOS |</a>
-          <a href="descoubolsa.html">DESCONTO E BOLSA DE ESTUDO |</a>
-          <a href="faleconosco.html">FALE CONOSCO</a>
-        </td>
+<!doctype html>
+<html>
+
+    <head> 
+        <title>Formas de Ingressar</title>
+        <meta charset="utf-8">
+
+    </head>
+    <body background="imgs-pjt-unes/fundo2.png ">
+       <table border="0" width="80%" align="center">
+        <tr style="background-color: navy">
+          <td width="30%" height="150"><img src="imgs-pjt-unes/logo.png" width="200" height="150"></td>
+          <td>
+            <a href="index.html" style="color: white">HOME |</a>
+            <a href="" style="color: white">FORMAS DE INGRESSO |</a>
+            <a href="nossoscursos.html" style="color: white">CONHEÇA NOSSOS CURSOS |</a>
+            <a href="descoubolsa.html" style="color: white">DESCONTO E BOLSA DE ESTUDO |</a>
+            <a href="faleconosco.html" style="color: white">FALE CONOSCO</a>  
+          </td>
       </tr>
         <td>
-          <img src="img-pjt-unes/unes.png" width="40%"> <hr size="3%" color="navy">
-          <h2>Quem Somos</h2>
-          <p>Texto aleatorio....</p>
-          <p>Mais texto aleatorio.....</p>
-        </td>
-      <tr>
-        <td> <hr size="3%" color="navy">
-          <h2>Nossos Principais Cursos</h2>
-          <ol type="squar">
-          <li>Admisnistração</li>
-          <li>Analise e Desenvolvimento de Sistemas</li>
-          <li>Direito</li>
-          <li>Educação Fisíca</li>
-          <li>Medicina</li>
-          </ol>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" align="center"> <hr size="3%" color="navy">
+          <h2>Escolha o melhor curso para você!</h2>
           <form>
-            <input type="select" name="inscricao"><strong>INSCREVA-SE</strong></input>
+            <input type="checkbox" id="1" name="curso" value="administração" checked>
+            <label for="1"> ADMINISTRAÇÃO</label><br>
+            <input type="checkbox" id="2" name="curso" value="analisedesistemas" checked>
+            <label for="2"> ANALISE E DESENVOLVIMENTO DE SISTEMAS</label><br>
+            <input type="checkbox" id="3" name="curso" value="direito" checked>
+            <label for="1"> DIREITO</label><br>
+            <input type="checkbox" id="4" name="curso" value="edfisica" checked>
+            <label for="1"> EDUCAÇÃO FÍSICA</label><br>
+            <input type="checkbox" id="5" name="curso" value="fisioterapia" checked>
+            <label for="1"> FISIOTERAPIA</label><br>
+            <input type="checkbox" id="6" name="curso" value="gastronomia" checked>
+            <label for="1"> GASTRONOMIA</label><br>
+            <input type="checkbox" id="7" name="curso" value="medicina" checked>
+            <label for="1"> MEDICINA</label><br>
+
+          </form>
+        </td>
+        <td>
+          <img src="img-pjt-unes/unes.png" width="60%" height="400" align="right"> 
+        </td><hr size="3%" color="navy">
+      <tr>
+        <td colspan="2"> <hr size="3%" color="navy">
+          <h2>Cadastre-se a baixo e começo a estudar com a gente !</h2>
+          <form>
+            <strong>Nome completo:</strong>
+            <input type="text" name="nome" value="nomecomp">
+            <strong>E-mail:</strong>
+            <input type="email" name="email"><br>
+            <strong>Telefone para contato:</strong>
+            <input type="tel" name="telefone">
+            <strong>Endereço:</strong>
+            <input type="text" name="endereco">
+            <br><br>
+            <strong>Curso escolhido:</strong>
+            <select id="curso">
+              <option>Administração</option>
+              <option>Analise e Desenvolvimento de Sistemas</option>
+              <option>Direito</option>
+              <option>Educação Fisíca</option>
+              <option>Fisioterapia</option>
+              <option>Gastronomia</option>
+              <option>Medesquina</option>
+              <option>Odontologia</option>
+            </select><br>
+            <input type="button" name="inscricao" value="INSCREVA-SE">
           </form>
         </td>
       </tr>
