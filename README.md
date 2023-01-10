@@ -12,3 +12,16 @@ Contendo paginas principais de um site padrão sendo elas:
 * Dessconto e Bolsas
 * Fale Conosco
  
+ 
+ # Site Laurabella Model
+
+Site de teste simulando um site real de uma modelo para divulgação dos trabalhos.
+
+Feito com **html5** e **css**.
+
+Contendo paginas principais de um site padrão sendo elas:
+
+* Home
+* Biografia
+* Campanhas Publicitárias
+* Contato
